@@ -16,7 +16,7 @@
 
 # Table of Contents
 
-1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-the-pipewire)
+1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
 
 2. [Wayland Development](https://github.com/mikeroyal/PipeWire-Guide#wayland-development)
 
