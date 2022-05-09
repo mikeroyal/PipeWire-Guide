@@ -44,6 +44,8 @@
    - [Proxy](https://docs.pipewire.org/page_proxy.html)
    - [Streams](https://docs.pipewire.org/page_streams.html)
    - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
+ 
+[PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
 
 [WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
 
@@ -56,7 +58,15 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 ## PipeWire Tools
 
-[PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines.It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing.
+[PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines.It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing. PipeWire was created by [Wim Taymans](https://gitlab.freedesktop.org/wtaymans), Principal Engineer at Red Hat and co-creator of the GStreamer multimedia framework.
+ 
+ **Key features of PipeWire include:**
+ 
+   - Capture and playback of audio and video with minimal latency.
+   - Real-time Multimedia processing on audio and video.
+   - Multiprocess architecture to let applications share multimedia content.
+   - Seamless support for PulseAudio, JACK, ALSA and GStreamer applications.
+
 
 [WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) is a modular session / policy manager for [PipeWire](https://pipewire.org/) and a GObject-based high-level library that wraps PipeWire’s API, providing convenience for writing the daemon’s modules as well as external tools for managing PipeWire. The WirePlumber daemon implements the session & policy management service. It follows a modular design, having plugins that implement the actual management functionality.
 
@@ -67,6 +77,38 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 [SPA (Simple Plugin API)](https://docs.pipewire.org/group__api__spa.html) is an extensible API to implement all kinds of plugins.
 
 ### Audio Tools & Libraries to use with PipeWire
+
+[Helvum](https://gitlab.freedesktop.org/pipewire/helvum) is a GTK-based patchbay for pipewire, inspired by the JACK tool [Catia](https://kx.studio/Applications:Catia).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/167501914-f21977bc-6b9a-4367-9340-e7e406d6f429.png">
+<br />
+</p>
+
+[qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph) is a graph manager dedicated to [PipeWire](https://pipewire.org/), using the [Qt C++ framework](https://qt.io/), based and pretty much like the same of [QjackCtl](https://qjackctl.sourceforge.io/).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/167501947-0a149f5a-84ec-4469-a6dd-4c3715d0670d.png">
+<br />
+</p>
+
+[JamesDSP for Linux](https://github.com/Audio4Linux/JDSP4Linux) is an audio effect processor for PipeWire and PulseAudio clients.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/167501954-29d7e852-8a5b-41f8-a3b6-88db39e290d6.png">
+<br />
+</p>
+
+[NoiseTorch](https://github.com/lawl/NoiseTorch) is an easy to use open source application for Linux with PulseAudio or PipeWire. It creates a virtual microphone that suppresses noise, in any application. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/167501959-0ca879bb-8c37-4979-94e7-c253bb50fde7.png">
+<br />
+</p>
+
+[QjackCtl](https://qjackctl.sourceforge.io/) is a simple Qt application to control the JACK sound server daemon, specific for the Linux Audio Desktop infrastructure.
+
+[Catia](https://kx.studio/Applications:Catia) is a JACK Patchbay, with some neat features like A2J bridge support and JACK Transport. It's supposed to be as simple as possible so it can work nicely on non-Linux platforms. 
 
 [JACK Audio Connection Kit AKA JACK](https://jackaudio.org/) is a professional sound server daemon that provides real-time, low-latency connections for both audio and MIDI data between applications that implement its API. JACK can be configured to send audio data over a network to a main machine, which then outputs the audio to a physical device. This can be useful to mix audio from a number of linked computers without requiring additional cables or hardware mixers, and keeping the audio path digital for as long as possible.
 
@@ -146,7 +188,7 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 [XWayland](https://wayland.freedesktop.org/xserver.html) is an X Server running as a Wayland client(for backwards compatibility), allowing the [Xorg server](https://www.x.org/wiki/XServer/) can be modified to use wayland input devices for input and forward either the root window or individual top-level windows as wayland surfaces.
 
-[KWayland](https://github.com/KDE/kwayland-server) is a Qt-style API to interact with the wayland-client and wayland-server API.
+KWin](https://community.kde.org/KWin/Wayland) is the window manager for the KDE Plasma Desktop. It gives you complete control over your windows, making sure they're not in the way but aid you in your task. It paints the window decoration, the bar on top of every window with (configurable) buttons like close, maximize and minimize.
 
 [Qt](https://www.qt.io/) is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. It is one of the most popular toolkits for the Wayland and X11 windowing.
 
