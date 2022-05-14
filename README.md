@@ -18,6 +18,9 @@
 
 1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
 
+   - [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
+   - [Setting up PipeWire for Ubuntu/Debian](https://github.com/mikeroyal/PipeWire-Guide#setting-up-pipewire-for-ubuntudebian)
+
 2. [Wayland Development](https://github.com/mikeroyal/PipeWire-Guide#wayland-development)
 
 # Getting Started with PipeWire
@@ -128,6 +131,52 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 [WebRTC](https://webrtc.org/) is an open-source project that adds real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions.
 
+## Setting up PipeWire for Ubuntu/Debian
+
+**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default.
+
+**Add PipeWire PPA**
+
+```$ sudo add-apt-repository ppa:pipewire-debian/pipewire-upstream```
+
+**Install the pipewire-audio-client-libraries and additional libraries to use Bluetooth, GStreamer, or JACK devices with your Ubuntu/Debian system.**
+ 
+ ```$ sudo apt update```
+  ```  $ sudo apt install pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
+
+**After installation has completed, run the following command to reload the daemon in systemd.**
+
+```$ systemctl --user daemon-reload```
+
+**Disable PulseAudio in Ubuntu. It will no longer be needed, since we are using PipeWire.**
+
+```$ systemctl --user --now disable pulseaudio.service pulseaudio.socket```
+
+**PulseAudio is disabled, we can start PipeWire and enable it to run automatically upon system boot.**
+
+```$ systemctl --user --now enable pipewire pipewire-pulse```
+
+**Run the following command to ensure that PipeWire is running.**
+
+```$ pactl info```
+
+### Reverting Changes
+
+```$ sudo apt remove pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
+
+**Reload the daemon in systemd.**
+
+```$ systemctl --user daemon-reload```
+
+**Re-enables the PulseAudio service after you do a system reboot.**
+
+```$ systemctl --user --now enable pulseaudio.service pulseaudio.socket```
+
+**Ensure that PulseAudio has been completely restored.**
+ 
+```$ pactl info```
+
+
 # Wayland Development
 [Back to the Top](https://github.com/mikeroyal/PipeWire-Guide#table-of-contents)
 
@@ -188,7 +237,7 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 [XWayland](https://wayland.freedesktop.org/xserver.html) is an X Server running as a Wayland client(for backwards compatibility), allowing the [Xorg server](https://www.x.org/wiki/XServer/) can be modified to use wayland input devices for input and forward either the root window or individual top-level windows as wayland surfaces.
 
-KWin](https://community.kde.org/KWin/Wayland) is the window manager for the KDE Plasma Desktop. It gives you complete control over your windows, making sure they're not in the way but aid you in your task. It paints the window decoration, the bar on top of every window with (configurable) buttons like close, maximize and minimize.
+[KWin](https://community.kde.org/KWin/Wayland) is the window manager for the KDE Plasma Desktop. It gives you complete control over your windows, making sure they're not in the way but aid you in your task. It paints the window decoration, the bar on top of every window with (configurable) buttons like close, maximize and minimize.
 
 [Qt](https://www.qt.io/) is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. It is one of the most popular toolkits for the Wayland and X11 windowing.
 
