@@ -81,6 +81,13 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 ### Audio Tools & Libraries to use with PipeWire
 
+[EasyEffects](https://github.com/wwmm/easyeffects) is an applicaton that provides a limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/169711136-70c5cdb5-3275-4857-9072-44bdf1041bd2.png">
+<br />
+</p>
+
 [Helvum](https://gitlab.freedesktop.org/pipewire/helvum) is a GTK-based patchbay for pipewire, inspired by the JACK tool [Catia](https://kx.studio/Applications:Catia).
 
 <p align="center">
