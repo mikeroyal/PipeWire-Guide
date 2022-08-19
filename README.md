@@ -18,8 +18,11 @@
 
 1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
 
-   - [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
-   - [Setting up PipeWire for Ubuntu/Debian](https://github.com/mikeroyal/PipeWire-Guide#setting-up-pipewire-for-ubuntudebian)
+   * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
+   * [Installing PipeWire for Ubuntu/Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntudebian)
+   * [Installing PipeWire on openSUSE](#Installing-PipeWire-on-openSUSE)
+   * [Installing PipeWire on Arch Linux](#Installing-PipeWire-on-Arch-Linux)
+   
 
 2. [Wayland Development](https://github.com/mikeroyal/PipeWire-Guide#wayland-development)
 
@@ -50,6 +53,14 @@
  
 [PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
 
+[PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
+ 
+[PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
+ 
+[PipeWire - openSUSE Wiki](https://en.opensuse.org/openSUSE:Pipewire)
+ 
+[Virutal Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
+ 
 [WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
 
 <p align="center">
@@ -138,7 +149,7 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 [WebRTC](https://webrtc.org/) is an open-source project that adds real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions.
 
-## Setting up PipeWire for Ubuntu/Debian
+## Installing PipeWire for Ubuntu/Debian
 
 **Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default.
 
@@ -183,6 +194,24 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
  
 ```$ pactl info```
 
+## Installing PipeWire on openSUSE
+ 
+ ```sudo zypper in pipewire pipewire-pulseaudio pipewire-alsa pipewire-aptx```
+ 
+ 
+## Installing PipeWire on Arch Linux
+ 
+ **[Pipewire and JACK on Arch Linux by Scott Petersen](https://www.scottericpetersen.com/2022/05/27/pipewire-and-jack-on-arch-linux/)**
+ 
+ ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber helvum```
+ 
+**Note: [Helvum](https://gitlab.freedesktop.org/pipewire/helvum) (GTK patchbay for PipeWire).**
+
+ or
+ 
+ ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber qpwgraph```
+ 
+ **Note: [qpwgraph](https://github.com/rncbc/qpwgraph) (PipeWire Graph Qt GUI Interface).**
 
 # Wayland Development
 [Back to the Top](https://github.com/mikeroyal/PipeWire-Guide#table-of-contents)
@@ -196,47 +225,47 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 [Wayland](https://wayland.freedesktop.org) is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an [X application](https://www.x.org/wiki/XServer/), or a wayland client itself.
 
-[Wayland Architecture](https://wayland.freedesktop.org/architecture.html)
+ * [Wayland Architecture](https://wayland.freedesktop.org/architecture.html)
 
-[Wayland Documentation](https://wayland.freedesktop.org/docs/html/)
+ * [Wayland Documentation](https://wayland.freedesktop.org/docs/html/)
 
-[Sotfware Toolkits that have Wayland support right now](https://wayland.freedesktop.org/toolkits.html)
+ * [Sotfware Toolkits that have Wayland support right now](https://wayland.freedesktop.org/toolkits.html)
 
-[Contribution instructions for Wayland](https://gitlab.freedesktop.org/wayland/wayland/blob/master/CONTRIBUTING.md)
+ * [Contribution instructions for Wayland](https://gitlab.freedesktop.org/wayland/wayland/blob/master/CONTRIBUTING.md)
 
-[Contribution instructions for Weston](https://gitlab.freedesktop.org/wayland/weston/blob/master/CONTRIBUTING.md)
+ * [Contribution instructions for Weston](https://gitlab.freedesktop.org/wayland/weston/blob/master/CONTRIBUTING.md)
 
-[Reporting Wayland bugs](https://gitlab.freedesktop.org/wayland/wayland/issues)
+ * [Reporting Wayland bugs](https://gitlab.freedesktop.org/wayland/wayland/issues)
 
-[Reporting Weston bugs](https://gitlab.freedesktop.org/wayland/weston/issues)
+ * [Reporting Weston bugs](https://gitlab.freedesktop.org/wayland/weston/issues)
 
-[WSLG: X11 and Wayland Applications in Windows Subsystem for Linux(WSL2)](https://linuxplumbersconf.org/event/9/contributions/611/attachments/702/1298/XDC2020_-_X11_and_Wayland_applications_in_WSL.pdf)
+ * [WSLG: X11 and Wayland Applications in Windows Subsystem for Linux(WSL2)](https://linuxplumbersconf.org/event/9/contributions/611/attachments/702/1298/XDC2020_-_X11_and_Wayland_applications_in_WSL.pdf)
 
-[Qt Wayland Compositor](https://doc.qt.io/qt-5/qtwaylandcompositor-index.html)
+ * [Qt Wayland Compositor](https://doc.qt.io/qt-5/qtwaylandcompositor-index.html)
 
-[Qt Wayland Compositor Examples](https://doc.qt.io/qt-5/qtwaylandcompositor-examples.html)
+ * [Qt Wayland Compositor Examples](https://doc.qt.io/qt-5/qtwaylandcompositor-examples.html)
 
-[Wayland on ArchWiki](https://wiki.archlinux.org/index.php/Wayland)
+ * [Wayland on ArchWiki](https://wiki.archlinux.org/index.php/Wayland)
 
-[Sway on ArchWiki](https://wiki.archlinux.org/index.php/Sway)
+ * [Sway on ArchWiki](https://wiki.archlinux.org/index.php/Sway)
 
-[Wayland on Ubuntu Wiki](https://wiki.ubuntu.com/Wayland)
+ * [Wayland on Ubuntu Wiki](https://wiki.ubuntu.com/Wayland)
 
-[Wayland on Debian Wiki](https://wiki.debian.org/Wayland)
+ * [Wayland on Debian Wiki](https://wiki.debian.org/Wayland)
 
-[The Wayland Display Server on Fedora Docs](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/Wayland/)
+ * [The Wayland Display Server on Fedora Docs](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/Wayland/)
 
-[Wayland features on Fedora Project Wiki](https://fedoraproject.org/wiki/Wayland_features)
+ * [Wayland features on Fedora Project Wiki](https://fedoraproject.org/wiki/Wayland_features)
 
-[Wayland on GNOME Wiki](https://wiki.gnome.org/Initiatives/Wayland)
+ * [Wayland on GNOME Wiki](https://wiki.gnome.org/Initiatives/Wayland)
 
-[KWin/Wayland on KDE Community Wiki](https://community.kde.org/index.php?title=KWin/Wayland)
+ * [KWin/Wayland on KDE Community Wiki](https://community.kde.org/index.php?title=KWin/Wayland)
 
-[Wayland Desktop Landscape on Gentoo Wiki](https://wiki.gentoo.org/wiki/Wayland_Desktop_Landscape)
+ * [Wayland Desktop Landscape on Gentoo Wiki](https://wiki.gentoo.org/wiki/Wayland_Desktop_Landscape)
 
-[Wayland in Void Linux Handbook](https://docs.voidlinux.org/config/graphical-session/wayland.html)
+ * [Wayland in Void Linux Handbook](https://docs.voidlinux.org/config/graphical-session/wayland.html)
 
-[Wayland on Enlightenment DE](https://www.enlightenment.org/about-wayland)
+ * [Wayland on Enlightenment DE](https://www.enlightenment.org/about-wayland)
 
 ## Wayland Tools
 
