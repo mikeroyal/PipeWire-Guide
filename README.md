@@ -19,7 +19,7 @@
 1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
 
    * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
-   * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire
+   * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire)
    * [Installing PipeWire for Ubuntu/Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntudebian)
    * [Installing PipeWire on openSUSE](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-openSUSE)
    * [Installing PipeWire on Arch Linux](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux)
@@ -30,50 +30,6 @@
 
 # Getting Started with PipeWire
 
-[How Audio is implemented with PipeWire](https://docs.pipewire.org/page_audio.html)
-
-[PipeWire Design](https://docs.pipewire.org/page_pipewire.html)
-
-[PipeWire Library](https://docs.pipewire.org/page_library.html)
-
-[DMA-BUF sharing](https://docs.pipewire.org/page_dma_buf.html)
-
-[PipeWire Daemon](https://docs.pipewire.org/page_daemon.html)
-
-[PipeWire Tools](https://docs.pipewire.org/page_tools.html)
-
-[PipeWire Session Manager](https://docs.pipewire.org/page_session_manager.html)
-
-[PipeWire Modules](https://docs.pipewire.org/page_pipewire_modules.html)
-
-[PipeWire API](https://docs.pipewire.org/page_api.html)
-
-   - [Client Implementation](https://docs.pipewire.org/page_client_impl.html)
-   - [Proxy](https://docs.pipewire.org/page_proxy.html)
-   - [Streams](https://docs.pipewire.org/page_streams.html)
-   - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
- 
-[PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
-
-[PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
- 
-[PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
- 
-[PipeWire - openSUSE Wiki](https://en.opensuse.org/openSUSE:Pipewire)
- 
-[Virutal Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
- 
-[WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/142779615-d631251b-a2d6-48b4-8194-7985604a8563.png">
-  <br />
-</p>
-
-How WirePlumber, the PipeWire session manager works. Source: [Collabora](https://www.collabora.com/news-and-blog/blog/2020/05/07/wireplumber-the-pipewire-session-manager/)
-
-## PipeWire Tools
-
 [PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines.It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing. PipeWire was created by [Wim Taymans](https://gitlab.freedesktop.org/wtaymans), Principal Engineer at Red Hat and co-creator of the GStreamer multimedia framework.
  
  **Key features of PipeWire include:**
@@ -83,6 +39,51 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
    - Multiprocess architecture to let applications share multimedia content.
    - Seamless support for PulseAudio, JACK, ALSA and GStreamer applications.
 
+### Developer Resources
+
+ * [How Audio is implemented with PipeWire](https://docs.pipewire.org/page_audio.html)
+
+ * [PipeWire Design](https://docs.pipewire.org/page_pipewire.html)
+
+ * [PipeWire Library](https://docs.pipewire.org/page_library.html)
+
+ * [DMA-BUF sharing](https://docs.pipewire.org/page_dma_buf.html)
+
+ * [PipeWire Daemon](https://docs.pipewire.org/page_daemon.html)
+
+ * [PipeWire Tools](https://docs.pipewire.org/page_tools.html)
+
+ * [PipeWire Session Manager](https://docs.pipewire.org/page_session_manager.html)
+
+ * [PipeWire Modules](https://docs.pipewire.org/page_pipewire_modules.html)
+
+ * [PipeWire API](https://docs.pipewire.org/page_api.html)
+
+   - [Client Implementation](https://docs.pipewire.org/page_client_impl.html)
+   - [Proxy](https://docs.pipewire.org/page_proxy.html)
+   - [Streams](https://docs.pipewire.org/page_streams.html)
+   - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
+ 
+ * [PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
+
+ * [PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
+ 
+ * [PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
+ 
+ * [PipeWire - openSUSE Wiki](https://en.opensuse.org/openSUSE:Pipewire)
+ 
+ * [Virutal Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
+ 
+ * [WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/142779615-d631251b-a2d6-48b4-8194-7985604a8563.png">
+  <br />
+</p>
+
+How WirePlumber, the PipeWire session manager works. Source: [Collabora](https://www.collabora.com/news-and-blog/blog/2020/05/07/wireplumber-the-pipewire-session-manager/)
+
+## PipeWire Tools
 
 [WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) is a modular session / policy manager for [PipeWire](https://pipewire.org/) and a GObject-based high-level library that wraps PipeWire’s API, providing convenience for writing the daemon’s modules as well as external tools for managing PipeWire. The WirePlumber daemon implements the session & policy management service. It follows a modular design, having plugins that implement the actual management functionality.
 
