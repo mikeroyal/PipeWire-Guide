@@ -30,6 +30,8 @@
 
 # Getting Started with PipeWire
 
+[Back to the Top](#table-of-contents)
+
 [PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines.It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing. PipeWire was created by [Wim Taymans](https://gitlab.freedesktop.org/wtaymans), Principal Engineer at Red Hat and co-creator of the GStreamer multimedia framework.
  
  **Key features of PipeWire include:**
@@ -84,6 +86,8 @@
 How WirePlumber, the PipeWire session manager works. Source: [Collabora](https://www.collabora.com/news-and-blog/blog/2020/05/07/wireplumber-the-pipewire-session-manager/)
 
 ## PipeWire Tools
+
+[Back to the Top](#table-of-contents)
 
 [WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) is a modular session / policy manager for [PipeWire](https://pipewire.org/) and a GObject-based high-level library that wraps PipeWire’s API, providing convenience for writing the daemon’s modules as well as external tools for managing PipeWire. The WirePlumber daemon implements the session & policy management service. It follows a modular design, having plugins that implement the actual management functionality.
 
@@ -241,6 +245,8 @@ Squeezer
 
 ## Installing PipeWire for Ubuntu/Debian
 
+[Back to the Top](#table-of-contents)
+
 **Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default.
 
 **Add PipeWire PPA**
@@ -285,11 +291,15 @@ Squeezer
 ```$ pactl info```
 
 ## Installing PipeWire on openSUSE
+
+[Back to the Top](#table-of-contents)
  
  ```sudo zypper in pipewire pipewire-pulseaudio pipewire-alsa pipewire-aptx```
  
  
 ## Installing PipeWire on Arch Linux
+
+[Back to the Top](#table-of-contents)
  
  **[Pipewire and JACK on Arch Linux by Scott Petersen](https://www.scottericpetersen.com/2022/05/27/pipewire-and-jack-on-arch-linux/)**
  
@@ -304,6 +314,8 @@ Squeezer
  ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber qpwgraph```
  
 ## Setting up OBS Studio
+
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/185703842-0926e10a-467a-471c-b5f6-b74df4e460d9.png">
@@ -376,6 +388,8 @@ Squeezer
 
 ## Wayland Learning Resources
 
+[Back to the Top](#table-of-contents)
+
 [Wayland](https://wayland.freedesktop.org) is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an [X application](https://www.x.org/wiki/XServer/), or a wayland client itself.
 
  * [Wayland Architecture](https://wayland.freedesktop.org/architecture.html)
@@ -421,6 +435,8 @@ Squeezer
  * [Wayland on Enlightenment DE](https://www.enlightenment.org/about-wayland)
 
 ## Wayland Tools
+
+[Back to the Top](#table-of-contents)
 
 [Weston](https://gitlab.freedesktop.org/wayland/weston) is a lightweight and functional Wayland compositor.
 
