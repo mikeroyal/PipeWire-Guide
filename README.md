@@ -293,15 +293,15 @@ Squeezer
  
  **[Pipewire and JACK on Arch Linux by Scott Petersen](https://www.scottericpetersen.com/2022/05/27/pipewire-and-jack-on-arch-linux/)**
  
- ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber helvum```
+ **Note: [Helvum](https://gitlab.freedesktop.org/pipewire/helvum) (GTK patchbay for PipeWire).**
  
-**Note: [Helvum](https://gitlab.freedesktop.org/pipewire/helvum) (GTK patchbay for PipeWire).**
+ ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber helvum```
 
  or
  
- ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber qpwgraph```
+  **Note: [qpwgraph](https://github.com/rncbc/qpwgraph) (PipeWire Graph Qt GUI Interface).**
  
- **Note: [qpwgraph](https://github.com/rncbc/qpwgraph) (PipeWire Graph Qt GUI Interface).**
+ ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber qpwgraph```
  
 ## Setting up OBS Studio
 
