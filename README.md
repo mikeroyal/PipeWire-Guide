@@ -19,6 +19,7 @@
 1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
 
    * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
+   * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire
    * [Installing PipeWire for Ubuntu/Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntudebian)
    * [Installing PipeWire on openSUSE](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-openSUSE)
    * [Installing PipeWire on Arch Linux](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux)
@@ -127,6 +128,93 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 <img src="https://user-images.githubusercontent.com/45159366/167501959-0ca879bb-8c37-4979-94e7-c253bb50fde7.png">
 <br />
 </p>
+
+[SuperCollider](http://supercollider.github.io/) is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. It consists of:
+
+   * Scsynth, a real-time audio server with hundreds of unit generators ("UGens") for audio analysis, synthesis, and processing
+   * Supernova, an alternative server to scsynth with support for parallel DSP on multi-core processors.
+   * Sclang, an interpreted programming language that controls the servers.
+   * Scide, an editing environment for sclang with an integrated help system.
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702191-850c780b-3ae0-420a-9d4e-6804cd682363.png">
+<br />
+SuperCollider
+</p>
+
+[Element](https://kushview.net/element/) is a modular AU/LV2/VST/VST3 audio plugin host. It creates powerful effects, racks and instruments by connecting nodes to one another. Also, integrates with your existing hardware via standard protocols such as MIDI.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702226-0c14d5fe-8f1b-4ef3-abea-5e03650173aa.png">
+<br />
+Element
+</p>
+
+[SonoBus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702345-6ba90601-cb15-42db-a397-bb61350853dd.png">
+<br />
+SonosBus
+</p>
+
+[REAPER](https://www.reaper.fm/) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset. REAPER supports a vast range of hardware, digital formats and plugins, and can be comprehensively extended, scripted and modified. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702830-5135cca3-f113-4391-acdb-839a6813bcc8.png">
+<br />
+Reaper
+</p>
+
+[Soundux](https://soundux.rocks/) is a cross-platform soundboard.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702167-32c43bff-211e-4545-9234-7cb28f81646d.png">
+<br />
+Soundux
+</p>
+
+[JUCE](https://juce.com/) is an open-source cross-platform C++ application framework for desktop and mobile applications, including VST, VST3, AU, AUv3, RTAS and AAX audio plug-ins. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185703182-4af9f991-288d-413c-8a0c-b475a78be518.png">
+<br />
+JUCE
+</p>
+
+[Helio Workstation](https://helio.fm/) is free and open-source music sequencer, designed to be used on all major platforms.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702188-faddbe40-a37d-469b-8b96-80a9d18101b1.png">
+<br />
+Helio
+</p>
+
+[Zrythm](https://www.zrythm.org/) is a digital audio workstation designed to be featureful and easy to use. It offers streamlined editing workflows with flexible tools, limitless automation capabilities, powerful mixing features, chord assistance and support for various plugin and file formats.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702208-030afa5f-b1d3-4068-9589-1544a33e0657.png">
+<br />
+Zrythm
+</p>
+
+[Yabridge](https://github.com/robbert-vdh/yabridge) is a modern and transparent way to use Windows VST2 and VST3 plugins on Linux.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702206-b94af236-fcea-455a-bbec-df304b6fcfaf.png">
+<br />
+Yabridge
+</p>
+ 
+[Squeezer](https://github.com/mzuther/Squeezer) is a flexible general-purpose audio compressor with a touch of citrus.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185702199-6c3e2016-5387-43d7-9c5c-639a61c39ef8.png">
+<br />
+Squeezer
+</p>
+
+[Matchering 2.0](https://github.com/sergree/matchering) is a novel [Containerized Web Application](https://github.com/sergree/matchering#docker-image---the-easiest-way) and [Python Library](https://pypi.org/project/matchering) for audio matching and [mastering](https://en.wikipedia.org/wiki/Audio_mastering).
 
 [QjackCtl](https://qjackctl.sourceforge.io/) is a simple Qt application to control the JACK sound server daemon, specific for the Linux Audio Desktop infrastructure.
 
