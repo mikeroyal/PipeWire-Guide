@@ -24,7 +24,7 @@
    * [Installing PipeWire on openSUSE](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-openSUSE)
    * [Installing PipeWire on Arch Linux](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux)
    * [Setting up OBS Studio](https://github.com/mikeroyal/PipeWire-Guide#Setting-up-OBS-Studio)
-      * [Useful OBS Studio 3rd party Plugins & Themes](https://github.com/mikeroyal/PipeWire-Guide#Useful-OBS-Studio-3rd-party-Plugins--Themes)
+      * [Useful OBS Studio 3rd party Plugins & Themes](https://github.com/mikeroyal/PipeWire-Guide#useful-obs-studio-3rd-party-plugins-and-themes)
 
 2. [Wayland Development](https://github.com/mikeroyal/PipeWire-Guide#wayland-development)
 
@@ -98,6 +98,8 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 [SPA (Simple Plugin API)](https://docs.pipewire.org/group__api__spa.html) is an extensible API to implement all kinds of plugins.
 
 ### Audio Tools & Libraries to use with PipeWire
+
+[Back to the Top](#table-of-contents)
 
 [EasyEffects](https://github.com/wwmm/easyeffects) is an applicaton that provides a limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications.
 
