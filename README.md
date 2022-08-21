@@ -20,7 +20,8 @@
 
    * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
    * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire)
-   * [Installing PipeWire for Ubuntu/Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntudebian)
+   * [Installing PipeWire for Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-debian)
+   * [Installing PipeWire for Ubuntu](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntu)
    * [Installing PipeWire on openSUSE](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-openSUSE)
    * [Installing PipeWire on Arch Linux](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-Arch-Linux)
    * [Setting up OBS Studio](https://github.com/mikeroyal/PipeWire-Guide#Setting-up-OBS-Studio)
@@ -245,11 +246,70 @@ Squeezer
 
 [WebRTC](https://webrtc.org/) is an open-source project that adds real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions.
 
-## Installing PipeWire for Ubuntu/Debian
+## Installing PipeWire for Debian
 
 [Back to the Top](#table-of-contents)
 
-**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/185810671-5e1cf1c5-fb55-4296-abd1-600730a7efd0.png">
+  <br />
+</p>
+
+
+* [PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
+
+Before you begin make sure to cd ```/etc/apt/sources.list.d``` in the terminal.
+
+### Install PipeWire
+
+```sudo apt install pipewire```
+
+**Create this empty file:**
+
+```# touch /etc/pipewire/media-session.d/with-pulseaudio```
+
+Create a pipewire-pulse service by copying the example files:
+
+```# cp /usr/share/doc/pipewire/examples/systemd/user/pipewire-pulse.* /etc/systemd/user/```
+
+#### Run these three commands as your regular user (not as root):
+
+**Check for new service files with:**
+
+```systemctl --user daemon-reload```
+
+**Disable and stop the PulseAudio service with:**
+
+```systemctl --user --now disable pulseaudio.service pulseaudio.socket```
+
+**Enable and start the new pipewire-pulse service with:**
+
+```systemctl --user --now enable pipewire pipewire-pulse```
+
+**This will configure PipeWire to activate its PulseAudio replacement daemon. Verify that it's enabled by running:**
+
+```LANG=C pactl info | grep '^Server Name'```
+
+It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
+
+**To ensure this continues working after a reboot. You will need to "mask" the PulseAudio service by running:**
+
+```systemctl --user mask pulseaudio```
+
+
+## Installing PipeWire for Ubuntu
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="">
+  <br />
+</p>
+
+**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default. PipeWire will be default in [Ubuntu 22.10 (October 2022)](https://discourse.ubuntu.com/t/pipewire-as-a-replacement-for-pulseaudio/28489/30).
+
+
+* [PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
 
 **Add PipeWire PPA**
 
@@ -258,6 +318,7 @@ Squeezer
 **Install the pipewire-audio-client-libraries and additional libraries to use Bluetooth, GStreamer, or JACK devices with your Ubuntu/Debian system.**
  
  ```$ sudo apt update```
+ 
   ```  $ sudo apt install pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
 
 **After installation has completed, run the following command to reload the daemon in systemd.**
