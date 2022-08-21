@@ -251,7 +251,7 @@ Squeezer
 [Back to the Top](#table-of-contents)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/185810671-5e1cf1c5-fb55-4296-abd1-600730a7efd0.png">
+ <img src="https://user-images.githubusercontent.com/45159366/185811902-d09f898c-a30f-4a24-af42-4e0d5cbd8f7f.png">
   <br />
 </p>
 
@@ -302,14 +302,14 @@ It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 [Back to the Top](#table-of-contents)
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/185810661-37cfa510-a954-45a2-a678-8579449f56ac.png">
   <br />
 </p>
 
-**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default. PipeWire will be default in [Ubuntu 22.10 (October 2022)](https://discourse.ubuntu.com/t/pipewire-as-a-replacement-for-pulseaudio/28489/30).
-
 
 * [PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
+
+**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default. PipeWire will be default in [Ubuntu 22.10 (October 2022)](https://discourse.ubuntu.com/t/pipewire-as-a-replacement-for-pulseaudio/28489/30).
 
 **Add PipeWire PPA**
 
