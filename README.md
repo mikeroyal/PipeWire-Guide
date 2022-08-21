@@ -295,15 +295,40 @@ Squeezer
 ## Installing PipeWire on openSUSE
 
 [Back to the Top](#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185811690-0f12b042-585a-4f62-84c6-dadd38fdf8a3.png">
+<br />
+</p>
+
+* [PipeWire - openSUSE Wiki](https://en.opensuse.org/openSUSE:Pipewire)
+
+**Note: With [openSUSE TumbleWeed](https://get.opensuse.org/tumbleweed/) PipeWire comes installed already, but for [openSUSE Leap](https://get.opensuse.org/leap/15.4/) you will need to install PipeWire.**
+
+ ### Install PipeWire packages:
  
  ```sudo zypper in pipewire pipewire-pulseaudio pipewire-alsa pipewire-aptx```
+ 
+### Then enable pipewire sockets and session manager:
+
+```systemctl --user enable --now pipewire.socket```
+
+```systemctl --user enable --now pipewire-pulse.socket```
+
+```systemctl --user enable --now wireplumber.service```
  
  
 ## Installing PipeWire on Arch Linux
 
 [Back to the Top](#table-of-contents)
- 
- **[Pipewire and JACK on Arch Linux by Scott Petersen](https://www.scottericpetersen.com/2022/05/27/pipewire-and-jack-on-arch-linux/)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185810674-cde93673-afaa-43f9-9b77-c542d0463c31.png">
+<br />
+</p>
+
+ * [PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
+ * [Pipewire and JACK on Arch Linux by Scott Petersen](https://www.scottericpetersen.com/2022/05/27/pipewire-and-jack-on-arch-linux/)
  
  **Note: [Helvum](https://gitlab.freedesktop.org/pipewire/helvum) (GTK patchbay for PipeWire).**
  
@@ -314,6 +339,15 @@ Squeezer
   **Note: [qpwgraph](https://github.com/rncbc/qpwgraph) (PipeWire Graph Qt GUI Interface).**
  
  ```sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber qpwgraph```
+ 
+ 
+### Then enable pipewire sockets and session manager:
+
+```systemctl --user enable --now pipewire.socket```
+
+```systemctl --user enable --now pipewire-pulse.socket```
+
+```systemctl --user enable --now wireplumber.service```
  
 ## Setting up OBS Studio
 
