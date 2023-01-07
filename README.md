@@ -75,6 +75,14 @@
  
  * [PipeWire - openSUSE Wiki](https://en.opensuse.org/openSUSE:Pipewire)
  
+ * [PipeWire - Void Linux Handbook](https://docs.voidlinux.org/config/media/pipewire.html)
+ 
+ * [PipeWire - Gentoo Wiki](https://wiki.gentoo.org/wiki/PipeWire)
+ 
+ * [PipeWire - NixOS Wiki](https://nixos.wiki/wiki/PipeWire)
+ 
+ * [Linux Audio Foundation](https://linuxaudiofoundation.org/)
+ 
  * [Virutal Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
  
  * [WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
