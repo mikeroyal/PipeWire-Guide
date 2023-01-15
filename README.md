@@ -138,7 +138,7 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 <br />
 </p>
 
-[NoiseTorch](https://github.com/lawl/NoiseTorch) is an easy to use open source application for Linux with PulseAudio or PipeWire. It creates a virtual microphone that suppresses noise, in any application. 
+[NoiseTorch](https://github.com/noisetorch/NoiseTorch) is an easy to use open source application for Linux with PulseAudio or PipeWire. It creates a virtual microphone that suppresses noise, in any application. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/167501959-0ca879bb-8c37-4979-94e7-c253bb50fde7.png">
