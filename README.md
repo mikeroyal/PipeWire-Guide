@@ -312,56 +312,52 @@ It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 [Back to the Top](#table-of-contents)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/185810661-37cfa510-a954-45a2-a678-8579449f56ac.png">
+ <img src="https://user-images.githubusercontent.com/45159366/218303402-8bd864ab-42cd-406d-b624-c33f9343e16e.png">
   <br />
 </p>
 
 
 * [PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
 
-**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default. PipeWire will be default in [Ubuntu 22.10 (October 2022)](https://discourse.ubuntu.com/t/pipewire-as-a-replacement-for-pulseaudio/28489/30).
+**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default. PipeWire will be default starting with [Ubuntu 22.10 (October 2022)](https://discourse.ubuntu.com/t/pipewire-as-a-replacement-for-pulseaudio/28489/30). So these install instructions are for those running older Ubuntu versions like 22.04 and 20.04 LTS releases.
 
-**Add PipeWire PPA**
+Before you begin make sure to cd ```/etc/apt/sources.list.d``` in the terminal.
 
-```$ sudo add-apt-repository ppa:pipewire-debian/pipewire-upstream```
+### Install PipeWire
 
-**Install the pipewire-audio-client-libraries and additional libraries to use Bluetooth, GStreamer, or JACK devices with your Ubuntu/Debian system.**
- 
- ```$ sudo apt update```
- 
-  ```  $ sudo apt install pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
+```sudo apt install pipewire```
 
-**After installation has completed, run the following command to reload the daemon in systemd.**
+**Create this empty file:**
 
-```$ systemctl --user daemon-reload```
+```# touch /etc/pipewire/media-session.d/with-pulseaudio```
 
-**Disable PulseAudio in Ubuntu. It will no longer be needed, since we are using PipeWire.**
+Create a pipewire-pulse service by copying the example files:
 
-```$ systemctl --user --now disable pulseaudio.service pulseaudio.socket```
+```# cp /usr/share/doc/pipewire/examples/systemd/user/pipewire-pulse.* /etc/systemd/user/```
 
-**PulseAudio is disabled, we can start PipeWire and enable it to run automatically upon system boot.**
+#### Run these three commands as your regular user (not as root):
 
-```$ systemctl --user --now enable pipewire pipewire-pulse```
+**Check for new service files with:**
 
-**Run the following command to ensure that PipeWire is running.**
+```systemctl --user daemon-reload```
 
-```$ pactl info```
+**Disable and stop the PulseAudio service with:**
 
-### Reverting Changes
+```systemctl --user --now disable pulseaudio.service pulseaudio.socket```
 
-```$ sudo apt remove pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
+**Enable and start the new pipewire-pulse service with:**
 
-**Reload the daemon in systemd.**
+```systemctl --user --now enable pipewire pipewire-pulse```
 
-```$ systemctl --user daemon-reload```
+**This will configure PipeWire to activate its PulseAudio replacement daemon. Verify that it's enabled by running:**
 
-**Re-enables the PulseAudio service after you do a system reboot.**
+```LANG=C pactl info | grep '^Server Name'```
 
-```$ systemctl --user --now enable pulseaudio.service pulseaudio.socket```
+It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 
-**Ensure that PulseAudio has been completely restored.**
- 
-```$ pactl info```
+**To ensure this continues working after a reboot. You will need to "mask" the PulseAudio service by running:**
+
+```systemctl --user mask pulseaudio```
 
 ## Installing PipeWire on openSUSE
 
