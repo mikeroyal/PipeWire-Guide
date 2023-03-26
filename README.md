@@ -108,6 +108,8 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 
 [SPA (Simple Plugin API)](https://docs.pipewire.org/group__api__spa.html) is an extensible API to implement all kinds of plugins.
 
+[PipeWire-rs](https://gitlab.freedesktop.org/pipewire/pipewire-rs) is a Rust bindings for pipewire and SPA libraries.
+
 ### Audio Tools & Libraries to use with PipeWire
 
 [Back to the Top](#table-of-contents)
