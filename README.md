@@ -244,6 +244,12 @@ Squeezer
 
 [JACK2](https://github.com/jackaudio/jack2) is a C++ version of the JACK low-latency audio server for multi-processor machines. It is a new implementation of the JACK server core features that aims at removing some limitations of the JACK1 design. The activation system has been changed for a data flow model and lock-free programming techniques for graph access have been used to have a more dynamic and robust system.
 
+[Cava](https://github.com/karlstav/cava) is a bar spectrum audio visualizer for terminal (ncurses) or desktop (SDL).
+
+[Musikcube](https://musikcube.com/) is a cross-platform, terminal-based audio engine, library, player and server written in c++.
+
+[LabSound](https://github.com/LabSound/LabSound) is a C++ graph-based audio engine. 
+
 [Pure Data](https://github.com/pure-data/pure-data) is a free real-time computer music system.
 
 [OpenMAX™](https://www.khronos.org/openmax/) is a cross-platform API that provides comprehensive streaming media codec and application portability by enabling accelerated multimedia components to be developed, integrated and programmed across multiple operating systems and silicon platforms.
