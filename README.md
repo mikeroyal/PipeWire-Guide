@@ -162,14 +162,6 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 SuperCollider
 </p>
 
-[Element](https://kushview.net/element/) is a modular AU/LV2/VST/VST3 audio plugin host. It creates powerful effects, racks and instruments by connecting nodes to one another. Also, integrates with your existing hardware via standard protocols such as MIDI.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185702226-0c14d5fe-8f1b-4ef3-abea-5e03650173aa.png">
-<br />
-Element
-</p>
-
 [SonoBus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
 
 <p align="center">
