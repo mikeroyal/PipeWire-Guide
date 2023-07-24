@@ -89,7 +89,7 @@
  
  * [Linux Audio Foundation](https://linuxaudiofoundation.org/)
  
- * [Virutal Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
+ * [Virtual Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
  
  * [WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
 
