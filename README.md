@@ -26,6 +26,9 @@
 
    * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
    * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire)
+     * [DAW/Sequencers](#dawsequencers)
+     * [System utilities - Plugin hosts & adapters](#system-utilities---plugin-hosts--adapters)
+     * [System utilities - Network streaming/broadcasting](#system-utilities---network-streamingbroadcasting)
    * [Installing PipeWire for Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-debian)
    * [Installing PipeWire for Ubuntu](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntu)
    * [Installing PipeWire on openSUSE](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-openSUSE)
@@ -261,6 +264,54 @@ Squeezer
 [Media Source Extensions (MSE)](https://www.w3.org/TR/media-source/) is a [W3C specification](https://github.com/w3c/media-source) that allows JavaScript to send byte streams to media codecs within Web browsers that support HTML5 video and audio. Also, this allows the implementation of client-side prefetching and buffering code for streaming media entirely in JavaScript.
 
 [WebRTC](https://webrtc.org/) is an open-source project that adds real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions.
+
+### DAW/Sequencers
+
+[Back to the Top](#table-of-contents)
+
+* [dino](http://dino.nongnu.org/) is an Integrated MIDI piano roll editor and sequencer engine.
+* [friniika](http://www.frinika.com/) is a complete music workstation for Windows/Linux/macOS.
+* [Harrison Mixbus](http://harrisonconsoles.com/site/mixbus.html) is the first full-featured DAW with true analog style mixing.
+* [helio-workstation](https://helio.fm/) is a free linear-based music For macOS, Linux, Windows, iOS and Android, with clean interface, version control, synchronization between devices, undo history, and more. 
+* [Laborejo](https://laborejo.org/laborejo/) - is a MIDI sequencer based on classical music notation. 
+* [meterec](https://meterec.sourceforge.net/) is a minimalistic multi track recorder.
+* [muse](https://muse-sequencer.github.io/) is a Qt4-based audio/MIDI sequencer.
+* [ossia score](https://ossia.io/) is an Interactive sequencer with intelligent timelines supporting audio, video, OSC, MIDI, DMX and more.
+* [Patroneo](https://www.laborejo.org/patroneo)  is an easy to use, pattern based midi sequencer.
+* [qtractor](https://qtractor.sourceforge.net/) is a MIDI/Audio multi-track sequencer application.
+* [REAPER](https://www.reaper.fm/) - A complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+* [sequencer64](https://github.com/ahlstromcj/sequencer64) is a Real time MIDI sequencer, a major reboot of seq24 with many new features.
+* [Stargate DAW](https://github.com/stargatedaw/stargate) is a Cross-platform, all-in-one DAW and plugin suite.
+* [Zrythm](https://www.zrythm.org/) is a highly automated and intuitive digital audio workstation.
+
+
+### System utilities - Plugin hosts & adapters
+
+[Back to the Top](#table-of-contents)
+
+* [carla-bridge-linux/win/wine32/64](https://kxstudio.linuxaudio.org/Applications:Carla) - Carla bridges for loading linux / windows 32/64 bits plugins.
+* [carla-lv2/vst](https://kxstudio.linuxaudio.org/Applications:Carla) is an audio plugin host (LV2/VST plugins).
+* [festige](https://www.syntheway.net/FeSTige.htm) is a graphical interface for fst and dssi-vst, allowing you to run Windows VST plugins on Linux. 
+* [dssi-vst](http://breakfastquay.com/dssi-vst/) is an Adapter for VST an VSTi audio plugins.
+* [linvst](https://github.com/osxmidi/LinVst) is a LinVst enables Windows VSTs to be used as Linux VSTs in Linux VST-capable DAWs.
+* [mod-host](https://github.com/moddevices/mod-host) is a LV2 host for JACK, controllable via socket or command line.
+* [synthpod](https://open-music-kontrollers.ch/lv2/synthpod/) is a Synthpod is an LV2 host.
+* [vst-bridge](https://github.com/abique/vst-bridge) is a VST bridge for Windows vst on Linux.
+* [wineasio](https://sourceforge.net/projects/wineasio/) is a Wine ASIO driver for JACK.
+* [yabridge](https://github.com/robbert-vdh/yabridge) is a modern and transparent way to use Windows VST2 and VST3 plugins on Linux
+
+### System utilities - Network streaming/broadcasting
+
+[Back to the Top](#table-of-contents)
+
+* [autoradio](https://autoradiobc.sf.net) is a radio automation software.
+* [gpac](https://gpac.wp.mines-telecom.fr/) is a GPAC Project on Advanced Content.
+* [jamulus](https://jamulus.io/) is a Low latency audio server/client for collaborative music sessions.
+* [larigira](https://git.lattuga.net/boyska/larigira) is a radio automation software based on MPD.
+* [Open Broadcaster Software](https://obsproject.com/) is a recorder and streamer for live video content.
+* [vlc-bin](https://www.videolan.org/vlc/) is a multimedia player and streamer (headless).
+* [vlc](https://www.videolan.org/vlc/) is a multimedia player and streamer.
+* [zita-njbridge](https://kokkinizita.linuxaudio.org/linuxaudio/downloads/index.html) is a Jack clients to transmit multichannel audio over a local IP network.
 
 ## Installing PipeWire for Debian
 
