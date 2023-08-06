@@ -269,18 +269,18 @@ Squeezer
 
 [Back to the Top](#table-of-contents)
 
-* [dino](http://dino.nongnu.org/) is an Integrated MIDI piano roll editor and sequencer engine.
+* [dino](http://dino.nongnu.org/) is an integrated MIDI piano roll editor and sequencer engine.
 * [friniika](http://www.frinika.com/) is a complete music workstation for Windows/Linux/macOS.
 * [Harrison Mixbus](http://harrisonconsoles.com/site/mixbus.html) is the first full-featured DAW with true analog style mixing.
-* [helio-workstation](https://helio.fm/) is a free linear-based music For macOS, Linux, Windows, iOS and Android, with clean interface, version control, synchronization between devices, undo history, and more. 
-* [Laborejo](https://laborejo.org/laborejo/) - is a MIDI sequencer based on classical music notation. 
+* [helio-workstation](https://helio.fm/) is a free linear-based music for macOS, Linux, Windows, iOS and Android, with clean interface, version control, synchronization between devices, undo history, and more. 
+* [Laborejo](https://laborejo.org/laborejo/) is a MIDI sequencer based on classical music notation. 
 * [meterec](https://meterec.sourceforge.net/) is a minimalistic multi track recorder.
 * [muse](https://muse-sequencer.github.io/) is a Qt4-based audio/MIDI sequencer.
-* [ossia score](https://ossia.io/) is an Interactive sequencer with intelligent timelines supporting audio, video, OSC, MIDI, DMX and more.
+* [ossia score](https://ossia.io/) is an interactive sequencer with intelligent timelines supporting audio, video, OSC, MIDI, DMX and more.
 * [Patroneo](https://www.laborejo.org/patroneo)  is an easy to use, pattern based midi sequencer.
 * [qtractor](https://qtractor.sourceforge.net/) is a MIDI/Audio multi-track sequencer application.
-* [REAPER](https://www.reaper.fm/) - A complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
-* [sequencer64](https://github.com/ahlstromcj/sequencer64) is a Real time MIDI sequencer, a major reboot of seq24 with many new features.
+* [REAPER](https://www.reaper.fm/) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+* [sequencer64](https://github.com/ahlstromcj/sequencer64) is a real-time MIDI sequencer, a major reboot of seq24 with many new features.
 * [Stargate DAW](https://github.com/stargatedaw/stargate) is a Cross-platform, all-in-one DAW and plugin suite.
 * [Zrythm](https://www.zrythm.org/) is a highly automated and intuitive digital audio workstation.
 
@@ -289,7 +289,6 @@ Squeezer
 
 [Back to the Top](#table-of-contents)
 
-* [carla-bridge-linux/win/wine32/64](https://kxstudio.linuxaudio.org/Applications:Carla) - Carla bridges for loading linux / windows 32/64 bits plugins.
 * [carla-lv2/vst](https://kxstudio.linuxaudio.org/Applications:Carla) is an audio plugin host (LV2/VST plugins).
 * [festige](https://www.syntheway.net/FeSTige.htm) is a graphical interface for fst and dssi-vst, allowing you to run Windows VST plugins on Linux. 
 * [dssi-vst](http://breakfastquay.com/dssi-vst/) is an Adapter for VST an VSTi audio plugins.
