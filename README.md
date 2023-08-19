@@ -54,21 +54,13 @@
 ### Developer Resources
 
  * [How Audio is implemented with PipeWire](https://docs.pipewire.org/page_audio.html)
-
  * [PipeWire Design](https://docs.pipewire.org/page_pipewire.html)
-
  * [PipeWire Library](https://docs.pipewire.org/page_library.html)
-
  * [DMA-BUF sharing](https://docs.pipewire.org/page_dma_buf.html)
-
  * [PipeWire Daemon](https://docs.pipewire.org/page_daemon.html)
-
  * [PipeWire Tools](https://docs.pipewire.org/page_tools.html)
-
  * [PipeWire Session Manager](https://docs.pipewire.org/page_session_manager.html)
-
  * [PipeWire Modules](https://docs.pipewire.org/page_pipewire_modules.html)
-
  * [PipeWire API](https://docs.pipewire.org/page_api.html)
 
    - [Client Implementation](https://docs.pipewire.org/page_client_impl.html)
@@ -77,24 +69,19 @@
    - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
  
  * [PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
-
  * [PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
- 
  * [PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
- 
  * [PipeWire - openSUSE Wiki](https://en.opensuse.org/openSUSE:Pipewire)
- 
  * [PipeWire - Void Linux Handbook](https://docs.voidlinux.org/config/media/pipewire.html)
- 
  * [PipeWire - Gentoo Wiki](https://wiki.gentoo.org/wiki/PipeWire)
- 
  * [PipeWire - NixOS Wiki](https://nixos.wiki/wiki/PipeWire)
- 
- * [Linux Audio Foundation](https://linuxaudiofoundation.org/)
- 
  * [Virtual Devices - PipeWire Wiki](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-devices#virtual-devices)
- 
  * [WirePlumber Documentation](https://pipewire.pages.freedesktop.org/wireplumber/)
+ * [Linux Audio Foundation](https://linuxaudiofoundation.org/)
+ * [Linux Audio Wiki - All apps](http://wiki.linuxaudio.org/apps/all)
+ * [LV2 Plugins list](https://lv2plug.in/pages/projects.html)
+ * [Wine-VST](https://github.com/Sangeppato/wine-vst)
+ * [JACK Audio Wiki](https://github.com/jackaudio/jackaudio.github.com/wiki)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/142779615-d631251b-a2d6-48b4-8194-7985604a8563.png">
