@@ -23,7 +23,7 @@
 # Table of Contents
 
 1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
-
+   * [Developer Resources](#developer-resources)
    * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
    * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire)
      * [DAW/Sequencers](#dawsequencers)
@@ -52,6 +52,8 @@
    - Seamless support for PulseAudio, JACK, ALSA and GStreamer applications.
 
 ### Developer Resources
+
+[Back to the Top](#table-of-contents)
 
  * [How Audio is implemented with PipeWire](https://docs.pipewire.org/page_audio.html)
  * [PipeWire API](https://docs.pipewire.org/page_api.html)
