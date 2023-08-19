@@ -54,6 +54,12 @@
 ### Developer Resources
 
  * [How Audio is implemented with PipeWire](https://docs.pipewire.org/page_audio.html)
+ * [PipeWire API](https://docs.pipewire.org/page_api.html)
+   - [Client Implementation](https://docs.pipewire.org/page_client_impl.html)
+   - [Proxy](https://docs.pipewire.org/page_proxy.html)
+   - [Streams](https://docs.pipewire.org/page_streams.html)
+   - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
+     
  * [PipeWire Design](https://docs.pipewire.org/page_pipewire.html)
  * [PipeWire Library](https://docs.pipewire.org/page_library.html)
  * [DMA-BUF sharing](https://docs.pipewire.org/page_dma_buf.html)
@@ -61,13 +67,6 @@
  * [PipeWire Tools](https://docs.pipewire.org/page_tools.html)
  * [PipeWire Session Manager](https://docs.pipewire.org/page_session_manager.html)
  * [PipeWire Modules](https://docs.pipewire.org/page_pipewire_modules.html)
- * [PipeWire API](https://docs.pipewire.org/page_api.html)
-
-   - [Client Implementation](https://docs.pipewire.org/page_client_impl.html)
-   - [Proxy](https://docs.pipewire.org/page_proxy.html)
-   - [Streams](https://docs.pipewire.org/page_streams.html)
-   - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
- 
  * [PipeWire - ArchWiki](https://wiki.archlinux.org/title/PipeWire#JACK_clients)
  * [PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
  * [PipeWire - Ubuntu Wiki](https://wiki.ubuntu.com/DesktopTeam/TestPlans/Pipewire)
