@@ -23,6 +23,7 @@
 # Table of Contents
 
 1. [Getting Started with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#getting-started-with-pipewire)
+   * [YouTube Tutorials](#youtube-tutorials)
    * [Developer Resources](#developer-resources)
    * [PipeWire Tools](https://github.com/mikeroyal/PipeWire-Guide#pipewire-tools)
    * [Audio Tools & Libraries to use with PipeWire](https://github.com/mikeroyal/PipeWire-Guide#Audio-Tools--Libraries-to-use-with-PipeWire)
@@ -36,7 +37,7 @@
    * [Setting up OBS Studio](https://github.com/mikeroyal/PipeWire-Guide#Setting-up-OBS-Studio)
       * [Useful OBS Studio 3rd party Plugins & Themes](https://github.com/mikeroyal/PipeWire-Guide#useful-obs-studio-3rd-party-plugins-and-themes)
 
-2. [Wayland Development](https://github.com/mikeroyal/PipeWire-Guide#wayland-development)
+3. [Wayland Development](https://github.com/mikeroyal/PipeWire-Guide#wayland-development)
 
 # Getting Started with PipeWire
 
@@ -50,6 +51,17 @@
    - Real-time Multimedia processing on audio and video.
    - Multiprocess architecture to let applications share multimedia content.
    - Seamless support for PulseAudio, JACK, ALSA and GStreamer applications.
+
+### YouTube Tutorials
+
+[Back to the Top](#table-of-contents)
+
+[![You should use PipeWire... NOW!!!](https://ytcards.demolab.com/?id=5a7_2mA2LYQ&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "You should use PipeWire... NOW!!!")](https://www.youtube.com/watch?v=5a7_2mA2LYQ) 
+[![PulseAudio Is Dead To Me: Pipewire Is Here To Stay](https://ytcards.demolab.com/?id=A6tomqOZvM4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "PulseAudio Is Dead To Me: Pipewire Is Here To Stay")](https://www.youtube.com/watch?v=A6tomqOZvM4) 
+[![Wireplumber Takes Pipewire To The Next Level!](https://ytcards.demolab.com/?id=Zv1P6-kUn0c&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Wireplumber Takes Pipewire To The Next Level!")](https://www.youtube.com/watch?v=Zv1P6-kUn0c)
+[![Qpwgraph: Easiest Way To Reroute Pipewire Audio](https://ytcards.demolab.com/?id=TDBGsbwMo40&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Qpwgraph: Easiest Way To Reroute Pipewire Audio")](https://www.youtube.com/watch?v=TDBGsbwMo40)
+[![PipeWire Pro Audio](https://ytcards.demolab.com/?id=YQrHEwDeL3w&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "PipeWire Pro Audio")](https://www.youtube.com/watch?v=YQrHEwDeL3w) 
+[![Pipewire Finally Seems to Be Ready for the Masses](https://ytcards.demolab.com/?id=luUVD-W1lkA&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Pipewire Finally Seems to Be Ready for the Masses")](https://www.youtube.com/watch?v=luUVD-W1lkA) 
 
 ### Developer Resources
 
