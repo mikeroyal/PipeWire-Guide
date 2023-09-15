@@ -30,6 +30,7 @@
      * [DAW/Sequencers](#dawsequencers)
      * [System utilities - Plugin hosts & adapters](#system-utilities---plugin-hosts--adapters)
      * [System utilities - Network streaming/broadcasting](#system-utilities---network-streamingbroadcasting)
+     * [Audio Transcoding](#audio-transcoding)
    * [Installing PipeWire for Debian](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-debian)
    * [Installing PipeWire for Ubuntu](https://github.com/mikeroyal/PipeWire-Guide#installing-pipewire-for-ubuntu)
    * [Installing PipeWire on openSUSE](https://github.com/mikeroyal/PipeWire-Guide#Installing-PipeWire-on-openSUSE)
@@ -311,6 +312,35 @@ Squeezer
 * [vlc-bin](https://www.videolan.org/vlc/) is a multimedia player and streamer (headless).
 * [vlc](https://www.videolan.org/vlc/) is a multimedia player and streamer.
 * [zita-njbridge](https://kokkinizita.linuxaudio.org/linuxaudio/downloads/index.html) is a Jack clients to transmit multichannel audio over a local IP network.
+
+### Audio Transcoding
+
+[Back to the Top](#table-of-contents)
+
+**[Transcoding](https://en.wikipedia.org/wiki/Transcoding)**  is the process of converting an audio (including OGG, ACC, MP3, FLAC, Wave, and many others.) or video file from one encoding format to another in order to increase the number of compatible target devices that a media file can be played on.
+
+* **[ffmpeg](https://ffmpeg.org/)** - Tools for transcoding, streaming and playing of multimedia files.
+* **[qwinff](https://qwinff.github.io/)** - GUI for FFmpeg, a powerful command-line media converter. FFmpeg can read audio and video files in various formats and convert them into other formats.
+* **[winff](https://github.com/WinFF/winff)** - graphical video and audio batch converter using ffmpeg or avconv. 
+* [ambdec](https://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Ambisonic decoder for first and second order.
+* [audiotools](https://audiotools.sourceforge.net/) - Collection of audio handling programs for the command line.
+* [dir2ogg](https://jak-linux.org/projects/dir2ogg/) - audio file converter into ogg-vorbis format.
+* [ffmpeg2theora](https://v2v.cc/~j/ffmpeg2theora/) - Theora video encoder using ffmpeg.
+* [gigedit](https://www.linuxsampler.org/) - instrument editor for Gigasampler files.
+* [gigtools](https://www.linuxsampler.org/libgig/) - command line tools for Gigasampler and DLS Level 1/2 files.
+* [mediainfo-gui](https://mediainfo.sourceforge.net) - graphical utility for reading information from audio/video files.
+* [mediainfo](https://mediainfo.sourceforge.net) - command-line utility for reading information from audio/video files.
+* [mp3diags](https://mp3diags.sourceforge.net/) - find issues in MP3 files and help to solve them.
+* [mp3splt-gtk](https://mp3splt.sourceforge.net/) - GTK interface to split MP3 and Ogg Vorbis files without re-encoding.
+* [mp3val](https://mp3val.sourceforge.net/) - program for MPEG audio stream validation.
+* [sfarkxtc](https://github.com/raboof/sfarkxtc) - Converts soundfonts from legacy sfArk v2 file format to sf2.
+* [soundconverter](https://soundconverter.org/) - GNOME application to convert audio files into other formats.
+* [zita-bls1](https://kokkinizita.linuxaudio.org/linuxaudio/) -	binaural stereo signals converter.
+* [lame](https://lame.sourceforge.net/) - MP3 encoding library, frontend application, and other sound analysis/convenience tools.
+* [vorbis-tools](https://lame.sourceforge.net/) - OGG Vorbis encoder/decoder, player, information tool, and splitter.
+* [mp3info](https://www.ibiblio.org/mp3info/) - An MP3 technical info viewer and ID3 1.x tag editor.
+* [puddletag](https://docs.puddletag.net/) - simple, powerful audio tag editor.
+* [Ex Falso](https://quodlibet.readthedocs.io/en/latest/guide/editing_tags.html) - audio tag editor for GTK+.
 
 ## Installing PipeWire for Debian
 
