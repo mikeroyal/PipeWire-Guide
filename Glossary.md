@@ -108,6 +108,8 @@ R
 
 S
 
+[Simple Wireplumber GUI](https://github.com/dyegoaurelio/simple-wireplumber-gui) is a tool you can easily rename and see the properties of your audio devices if you're running **pipewire** as your audio server and **wireplumber** as it's session and policy manager. [Flatpak version](https://flathub.org/apps/io.github.dyegoaurelio.simple-wireplumber-gui)
+
 [SPA (Simple Plugin API)](https://docs.pipewire.org/group__api__spa.html) is an extensible API to implement all kinds of plugins.
 
 [Soundux](https://soundux.rocks/) is a cross-platform soundboard.
