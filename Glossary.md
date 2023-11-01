@@ -37,6 +37,8 @@ E
 
 [EasyEffects](https://github.com/wwmm/easyeffects) is an applicaton that provides a limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications.
 
+[Essentia](https://github.com/MTG/essentia) is an open-source C++ library for audio analysis and audio-based music information retrieval. It contains an extensive collection of reusable algorithms which implement audio input/output functionality, standard digital signal processing blocks, statistical characterization of data, and a large set of spectral, temporal, tonal and high-level music descriptors.
+
 [Ex Falso](https://quodlibet.readthedocs.io/en/latest/guide/editing_tags.html) - audio tag editor for GTK+.
 
 F
