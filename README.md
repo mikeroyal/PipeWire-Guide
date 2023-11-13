@@ -143,6 +143,13 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 <br />
 </p>
 
+[RaySession](https://github.com/Houston4444/RaySession) is a GNU/Linux session manager for audio programs such as Ardour, Carla, QTractor, Guitarix, Patroneo, Jack Mixer. This allows audio programs to load together, then be able to save or close all documents together. Checkout the [RaySesson manual](https://raysession.tuxfamily.org/en/manual).
+
+<p align="center">
+<img src="https://github.com/mikeroyal/PipeWire-Guide/assets/45159366/aef84134-502c-4b00-8caf-de08eaa68f81">
+<br />
+</p>
+
 [JamesDSP for Linux](https://github.com/Audio4Linux/JDSP4Linux) is an audio effect processor for PipeWire and PulseAudio clients.
 
 <p align="center">
