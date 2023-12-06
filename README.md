@@ -150,6 +150,32 @@ How WirePlumber, the PipeWire session manager works. Source: [Collabora](https:/
 <br />
 </p>
 
+[Studio One](https://www.presonussoftware.com/blog/studio-one-6-5-for-linux) is an DAW audio tool that has features like [Dolby Atmos integration](https://www.dolby.com/technologies/dolby-atmos/) and [ARA (Audio Random Access) support](https://en.wikipedia.org/wiki/Audio_Random_Access). Studio One is a Wayland application and won't run in an X11 session. The plug-in editor can be rendered into a bitmap with the new IPlugViewRendering interface which the host will then display in a Wayland surface. For user input, mouse events are passed to the plug-in via IPlugViewMouseInput in addition to keyboard events handled by standard VST3 APIs. Please check out this [knowledge base](https://support.presonus.com/hc/en-us/articles/19214558269581-Linux-Getting-Started).
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/PipeWire-Guide/assets/45159366/2a20e352-2416-4ed0-8b6d-eec867faf47a">
+</br>
+Studio One UI
+</p>
+
+
+[coppwr](https://github.com/dimtpap/coppwr) is a tool that provides low level control over the PipeWire multimedia server. It aims to expose and provide as many ways to inspect and control the many components of the PipeWire multimedia server as possible. It can be used as a diagnostic tool for PipeWire and to help develop software that interacts with it. [coppwr flatpak version](https://flathub.org/apps/xyz.dimtpap.coppwr).
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/PipeWire-Guide/assets/45159366/fa6cb464-6cc6-48bb-ba4c-c1edb7a218e9">
+</br>
+coppwr UI
+</p>
+
+
+[Whisper](https://github.com/mijorus/whisper) is a tool that allows you to listen to your microphone through your speakers using Pipewire. [Whisper flatpak version](https://flathub.org/apps/it.mijorus.whisper)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/PipeWire-Guide/assets/45159366/23512e82-f4a7-4ff2-b26a-5a6caeeeaaab">
+</br>
+Whisper UI
+</p>
+
 [JamesDSP for Linux](https://github.com/Audio4Linux/JDSP4Linux) is an audio effect processor for PipeWire and PulseAudio clients.
 
 <p align="center">
