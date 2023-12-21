@@ -29,6 +29,8 @@ C
 
 [Core API](https://docs.pipewire.org/group__api__pw__core.html) is used by all clients that need to communicate with the [PipeWire Daemon](https://docs.pipewire.org/page_daemon.html) and provides the necessary structs to interface with the daemon.
 
+[coppwr](https://github.com/dimtpap/coppwr) is a tool that provides low level control over the PipeWire multimedia server. It aims to expose and provide as many ways to inspect and control the many components of the PipeWire multimedia server as possible. It can be used as a diagnostic tool for PipeWire and to help develop software that interacts with it. [coppwr flatpak version](https://flathub.org/apps/xyz.dimtpap.coppwr).
+
 D
 
 [dssi-vst](http://breakfastquay.com/dssi-vst/) is an Adapter for VST an VSTi audio plugins.
@@ -116,6 +118,8 @@ S
 
 [Soundux](https://soundux.rocks/) is a cross-platform soundboard.
 
+[Studio One](https://www.presonussoftware.com/blog/studio-one-6-5-for-linux) is an DAW audio tool that has features like [Dolby Atmos integration](https://www.dolby.com/technologies/dolby-atmos/) and [ARA (Audio Random Access) support](https://en.wikipedia.org/wiki/Audio_Random_Access). Studio One is a Wayland application and won't run in an X11 session. The plug-in editor can be rendered into a bitmap with the new IPlugViewRendering interface which the host will then display in a Wayland surface. For user input, mouse events are passed to the plug-in via IPlugViewMouseInput in addition to keyboard events handled by standard VST3 APIs. Please check out this [knowledge base](https://support.presonus.com/hc/en-us/articles/19214558269581-Linux-Getting-Started).
+
 [SuperCollider](http://supercollider.github.io/) is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound.
 
 T
@@ -151,6 +155,8 @@ W
 [Wayland](https://wayland.freedesktop.org) is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an [X application](https://www.x.org/wiki/XServer/), or a wayland client itself.
 
 [WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) is a modular session / policy manager for [PipeWire](https://pipewire.org/) and a GObject-based high-level library that wraps PipeWire’s API, providing convenience for writing the daemon’s modules as well as external tools for managing PipeWire. The WirePlumber daemon implements the session & policy management service. It follows a modular design, having plugins that implement the actual management functionality.
+
+[Whisper](https://github.com/mijorus/whisper) is a tool that allows you to listen to your microphone through your speakers using Pipewire. [Whisper flatpak version](https://flathub.org/apps/it.mijorus.whisper)
 
 [WebRTC](https://webrtc.org/) is an open-source project that adds real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions.
 
