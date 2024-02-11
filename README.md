@@ -11,7 +11,7 @@
 ![Last-Commit](https://img.shields.io/github/last-commit/mikeroyal/pipewire-guide?style=for-the-badge)
 
 
-#### A guide covering PipeWire including the applications and tools that will make you a better and more efficient with your PipeWire.
+#### A guide covering PipeWire including the applications and tools that will make you a better and more efficient with your PipeWire. PipeWire is default in Fedora (34 or later), Debian 12, LMDE 6, Ubuntu (22.10 or later), Pop!_OS 22.04, and openSUSE Tumbleweed.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
@@ -384,8 +384,10 @@ Squeezer
   <br />
 </p>
 
+**Note:** PipeWire is default in Debian 12 and Linux Mint Dedbian Edition 6. The instructions below are for those still using [Debian 10 and Debian 11](https://wiki.debian.org/LTS).
 
 * [PipeWire - Debian Wiki](https://wiki.debian.org/PipeWire)
+* [Debian Long Term Support (LTS)](https://wiki.debian.org/LTS)
 
 Before you begin make sure to cd ```/etc/apt/sources.list.d``` in the terminal.
 
