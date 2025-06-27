@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/142936394-b546784e-231a-4391-9dd8-c686e5a7eee9.png">
   <br />
   PipeWire Guide
 </h1>
@@ -419,7 +419,7 @@ Create a pipewire-pulse service by copying the example files:
 
 **This will configure PipeWire to activate its PulseAudio replacement daemon. Verify that it's enabled by running:**
 
-```LC_ALL=C pactl info | grep '^Server Name'```
+```LANG=C pactl info | grep '^Server Name'```
 
 It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 
@@ -472,7 +472,7 @@ Create a pipewire-pulse service by copying the example files:
 
 **This will configure PipeWire to activate its PulseAudio replacement daemon. Verify that it's enabled by running:**
 
-```LC_ALL=C pactl info | grep '^Server Name'```
+```LANG=C pactl info | grep '^Server Name'```
 
 It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 
