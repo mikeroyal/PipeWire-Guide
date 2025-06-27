@@ -75,7 +75,7 @@
    - [Streams](https://docs.pipewire.org/page_streams.html)
    - [Thread Loop](https://docs.pipewire.org/page_thread_loop.html)
      
- * [PipeWire Design](https://docs.pipewire.org/page_pipewire.html)
+ * [PipeWire Design](https://docs.pipewire.org/page_design.html)
  * [PipeWire Library](https://docs.pipewire.org/page_library.html)
  * [DMA-BUF sharing](https://docs.pipewire.org/page_dma_buf.html)
  * [PipeWire Daemon](https://docs.pipewire.org/page_daemon.html)
